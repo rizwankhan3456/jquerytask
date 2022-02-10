@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+	src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="add_product_form">
+			<label for="product_sku">
+				<span>Product SKU</span> 
+				<input type="text" name="product_sku" id="product_sku">
+			</label>
+			<label for="product_name">
+				<span>Product Name</span> 
+				<input type="text" name="product_name" id="product_name">
+			</label>
+			<label for="product_price">
+				<span>Product Price</span> 
+				<input type="text" name="product_price" id="product_price">
+			</label>
+			<label for="product_quantity">
+				<span>Product Quantity</span> 
+				<input type="text" name="product_quantity" id="product_quantity">
+			</label>
+			<p>
+				<input type="button"  class="submit" name="add_product" id="add_product" value="Add Product">
+			</p>
+			<p >
+				<input type="button" class="submit" name="update_product" id="update_product" value="update  Product">
+			</p>
+		</div>
+		<div id="product_list">
+			<table>
+				<tr>
+					<th>SKU</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Quantity</th>
+					<th>Action</th>
+				</tr>
+				
+			</table>
+		</div>
+	</div>
+</div>
+</div>
+<script src="jquery.js"></script>
+</body>
+</html>
